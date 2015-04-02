@@ -14,7 +14,7 @@ Target platforms
 Latest version
 ---
 
-- Version 0.5.0  (April 2, 2015)
+- Version 0.5.1  (April 2, 2015)
 
 Getting started
 ---
@@ -25,7 +25,7 @@ This library is published on jCenter. Just add these lines to `build.gradle`.
 
 ```groovy
 dependencies {
-    compile 'com.h6ah4i.android.colortransitiondrawable:colortransitiondrawable:0.5.0'
+    compile 'com.h6ah4i.android.colortransitiondrawable:colortransitiondrawable:0.5.1'
 }
 ```
 
