@@ -66,7 +66,7 @@ public class ColorTransitionDrawable extends Drawable {
         mPaint.setColor(mCurrentColor);
         mPaint.setColorFilter(mColorFilter);
 
-        canvas.drawPaint(mPaint);
+        canvas.drawRect(getBounds(), mPaint);
 
         // schedule invalidate
         if (!done) {
