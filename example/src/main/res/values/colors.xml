@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_background">#ffcccccc</color>
+
+    <color name="bg_transparent">#00000000</color>
+    <color name="bg_black">#ff000000</color>
+    <color name="bg_white">#ffffffff</color>
+    <color name="bg_red">#ffff0000</color>
+    <color name="bg_green">#ff00ff00</color>
+    <color name="bg_blue">#ff0000ff</color>
+    <color name="bg_cyan">#ff00ffff</color>
+    <color name="bg_magenta">#ffff00ff</color>
+    <color name="bg_yellow">#ffffff00</color>
+
+</resources>
