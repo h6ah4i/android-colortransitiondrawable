@@ -19,8 +19,6 @@ Latest version
 Getting started
 ---
 
-**TODO not published yet**
-
 This library is published on jCenter. Just add these lines to `build.gradle`.
 
 ```groovy
