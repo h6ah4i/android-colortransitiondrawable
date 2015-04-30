@@ -62,11 +62,13 @@ public class ColorTransitionDrawable extends Drawable {
         }
 
         // draw
-        mPaint.setAlpha(mAlpha);
-        mPaint.setColor(mCurrentColor);
-        mPaint.setColorFilter(mColorFilter);
+        if ((mAlpha != 0) && ((mCurrentColor >>> 24) != 0)) {
+            mPaint.setAlpha(mAlpha);
+            mPaint.setColor(mCurrentColor);
+            mPaint.setColorFilter(mColorFilter);
 
-        canvas.drawRect(getBounds(), mPaint);
+            canvas.drawRect(getBounds(), mPaint);
+        }
 
         // schedule invalidate
         if (!done) {
