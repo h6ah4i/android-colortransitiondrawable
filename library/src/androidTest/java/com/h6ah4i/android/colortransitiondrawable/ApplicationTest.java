@@ -1,4 +1,4 @@
-package com.h6ah4i.android.colortransitiondrawable;
+package com.h6ah4i.android.example.colortransitiondrawable;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
