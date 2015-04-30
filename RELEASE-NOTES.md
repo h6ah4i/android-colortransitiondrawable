@@ -1,3 +1,7 @@
+## 0.5.2
+
+- Small optimization
+
 ## 0.5.1
 
 - Fixed bounds handling
