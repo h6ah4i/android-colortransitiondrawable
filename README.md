@@ -3,7 +3,7 @@ ColorTransitionDrawable
 
 This library provides a variant of the `Drawable` class which supports color transition animation. Works on API level 9 or later.
 
----
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.h6ah4i.android.colortransitiondrawable/colortransitiondrawable/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.h6ah4i.android.colortransitiondrawable/colortransitiondrawable)
 
 Target platforms
 ---
@@ -19,7 +19,7 @@ Latest version
 Getting started
 ---
 
-This library is published on jCenter. Just add these lines to `build.gradle`.
+This library is published on Maven Central. Just add these lines to `build.gradle`.
 
 ```groovy
 dependencies {
